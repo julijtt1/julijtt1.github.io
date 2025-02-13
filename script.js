@@ -52,6 +52,8 @@ function si() {
     noButton.style.display = 'none';
     let titulo = document.getElementById('titulo');
     titulo.innerText = '¡¡LO SABÍA!!'
+    let footer = document.getElementById('footer');
+    footer.innerText = 'TE AMO MI BEBESITA'
     let imagen = document.getElementById('imagen');
     imagen.src = 'https://i.pinimg.com/originals/88/14/9b/88149b0400750578f4d07d9bc3fb0fee.gif'
 }
